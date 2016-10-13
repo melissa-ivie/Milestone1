@@ -1,0 +1,334 @@
+
+@keyframes animation{
+    from{background-color:black;}
+    to {background-color: #53507;}
+}
+body{
+    background-color: #53507E;
+    animation-name: animation;
+    animation-duration: 4s;
+}
+ 
+#logo{
+    height: 37px;
+    
+}
+
+.Nav{
+    float: right;
+    font-family:"Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 12px;
+    color: #B1AEDE; //light purple
+    margin-left: 35px;
+    margin-top: 12px; 
+}
+
+.Nav a:hover{
+    color: white;
+}
+
+.Nav a:active{
+    color: white;
+    border-bottom: 2px solid-line color:#FF8ED8;
+}
+
+.Header{
+    height: 37px;
+    width: 1300px;
+    margin-top: 30px;
+    align-content: centered;
+    margin-bottom: 115px;
+}
+
+.leftArea{
+    width: 550px;
+    float: left;
+}
+
+.rightArea{
+    width: 550px;
+    float: right;
+}
+
+
+h1{
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 52px;
+    color: white;
+    line-height: 56px;
+    margin-bottom:  35px; 
+}
+
+p{
+    font-family: "Roboto Slab", serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #B1AEDE ;//light purple
+    margin-bottom:  120px;  
+}
+
+button{
+    height: 80px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right:45px;
+    padding-left: 45px;
+    border-radius: 40px;
+    box-shadow: 0 0 30px rgba(255, 142, 216, 0.75);
+    background-color: #FF8ED8; //pink
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 24px;
+    color: white;
+}
+
+button:hover{
+    box-shadow: 0 0 30px rgba(64, 61, 101, 0.75);
+    color: #403D65 ;//dark purple
+}
+
+.Footer{
+    float:left;
+    margin-top:  100px;
+    height: 105px;
+    background-color: #403D65; //dark purple
+}
+
+.topRow{
+    width: 1300px;
+    height: 34px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.nav2{
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 12px;
+    color: #B1AEDE; //light purple
+    margin-right: 35px;
+    margin-top: 10px;  
+}
+
+.nav2 a:hover{
+    color: white;
+}
+
+a {
+    margin-left: 20px;
+}
+
+.social a{
+    margin-left: 0px;
+}
+
+.social{
+    float:right;
+}
+
+.social img{
+    width: 34px;
+    margin-left: 10px;
+}
+
+.social img:hover{
+    opacity:0.75;
+}
+
+.bottomRow{
+    height: 35px;
+    margin-top: 15px;
+    font-family: "Roboto Slab", serif;
+    font-weight: 600;
+    font-size: 12px;
+    color: #B1AEDE; //light purple
+    text-align: center;
+}
+
+.backstory{
+    width: 750px;
+    padding: 80px;
+    margin-top:  0;
+    margin:auto;
+    margin-bottom: 90px;
+    background-color: white;
+    box-shadow: 0 0 100px rgba(255, 255, 255, .75);
+}
+
+h2{
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 24px;
+    color: #FF8ED8 ;//pink
+    margin-bottom: 35px;
+}
+
+.backstory p{
+    font-family: "Roboto Slab", serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #5C5C5C; //gray
+    max-width: 480px;
+}
+
+.Jeb{
+    width: 750px;
+    padding: 80px;
+    margin-top:  0;
+    margin:auto;
+    margin-bottom: 90px;
+    background-color: white;
+    box-shadow: 0 0 100px rgba(255, 255, 255, .75);
+    position: relative;
+}
+
+.Jeb img{
+    width: 208px;
+    position: absolute;
+    top: -40px;
+    left: -127px;
+    border: 20px solid white;
+    border-radius: 50%; //makes a circle
+}
+.Name{
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #5C5C5C; //gray
+}
+
+.Title{
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #FF8ED8; //pink
+}
+.Jeb p{
+    font-family: "Roboto Slab", serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #5C5C5C; //gray
+    max-width: 480px;
+}
+
+
+.Jez{
+    width: 750px;
+    padding: 80px;
+    margin-top:  0;
+    margin:auto;
+    margin-bottom: 90px;
+    background-color: white;
+    box-shadow: 0 0 100px rgba(255, 255, 255, .75);
+    position: relative;
+}
+
+.Jez img{
+    width: 208px;
+    position: absolute;
+    top: -40px;
+    left: 665px;
+    border: 20px solid white;
+    border-radius: 50%; //makes a circle
+}
+
+.Jez p{
+    margin-top: 50px;
+    text-align: right;
+    font-family: "Roboto Slab", serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #5C5C5C; //gray
+    max-width: 480px;
+}
+
+.nameNTitle{
+    position: absolute;
+    right: 80px;
+    text-align: right;
+    
+}
+
+.intro{
+    width: 750px;
+    padding: 80px;
+    margin-top:  0;
+    margin:auto;
+    margin-bottom: 90px;
+    background-color: white;
+    box-shadow: 0 0 100px rgba(255, 255, 255, .75);
+}
+
+
+.intro p{
+    font-family: "Roboto Slab", serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #5C5C5C; //gray
+    max-width: 480px;
+}
+
+input{
+    width: 95%;
+    outline: none;
+    border:none;
+    box-shadow: none;
+    border-bottom: 2px solid white;
+    height: 35px;
+    background: none;
+    font-family: "Roboto Slab", serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: white;
+    padding-left: 0; 
+}
+::-webkit-input-placeholder {
+    color:    #B1AEDE;
+}
+
+.contactForm{
+    width: 750px;
+    margin: auto;
+    position: relative;
+    border: none;
+    
+}
+
+#firstName{
+    width: 45%;
+    float: left;
+}
+
+#lastName{
+    width: 45%;
+    float: right;
+}
+
+.contactForm button{
+    margin:0 auto;
+    display: block;
+    width:375px;
+    margin-top: 30px;
+    height: 60px;
+    padding: 20px 45px;
+    border-radius: 30px;
+    box-shadow: 0 0 30px rgba(255, 142, 216, 0.75);
+    background: #FF8ED8; //pink
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    color: white;
+}
+
+.contactForm button:hover{
+    box-shadow: 0 0 30px rgba(64, 61, 101, 0.75);
+    color: #403D65 ;//dark purple
+}
+
+
